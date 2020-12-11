@@ -1,6 +1,10 @@
-git init
-git add .
+git init  初始化
+git add .  本地 暂存区  远程仓库
+git status  状态
 git commit -m "first commit"
-git remote rm origin
-git remote add origin https://github.com/ltchao/test.git
-git push -u origin main
+git remote rm origin  移除https的方式，换成 ssh方式
+git remote add origin https://github.com/ltchao/three.git
+git push -u origin master
+git log 提交记录  git log --author=''
+clear  清屏
+git remote -v  查看地址

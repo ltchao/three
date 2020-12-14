@@ -8,3 +8,5 @@ git push -u origin master
 git log 提交记录  git log --author=''
 clear  清屏
 git remote -v  查看地址
+
+git config --global --list 查看配置的用户名和邮箱

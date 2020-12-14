@@ -10,3 +10,11 @@ clear  清屏
 git remote -v  查看地址
 
 git config --global --list 查看配置的用户名和邮箱
+git log 退出方法  Q
+删除文件  手动删除  命令行删除 git rm xxx
+重命名   ------     命令行重命名  git mv 改动之前xxx  改动后xxx
+移动   git mv xxx  文件夹xxx
+查看文件前后变化  git log --pretty=oneline 文件夹/文件名  ==》复制id  git show id
+                 git log -p 文件夹/文件名
+查找不同 git diff
+还原文件  git checkout -- 文件夹/文件名

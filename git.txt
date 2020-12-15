@@ -4,8 +4,10 @@ git status  状态
 git commit -m "first commit"
 git remote rm origin  移除https的方式，换成 ssh方式
 git remote add origin https://github.com/ltchao/three.git
-git push -u origin master
+git push -u origin master   git push  origin master
 git log 提交记录  git log --author=''
+git log --oneline  简写
+git log  --oneline --graph 查看版本路线
 clear  清屏
 git remote -v  查看地址
 
@@ -17,4 +19,18 @@ git log 退出方法  Q
 查看文件前后变化  git log --pretty=oneline 文件夹/文件名  ==》复制id  git show id
                  git log -p 文件夹/文件名
 查找不同 git diff
-还原文件  git checkout -- 文件夹/文件名
+还原文件最后一次  git checkout -- 文件夹/文件名
+文件回到指定版本  git checkout idxxx -- 文件夹/文件名
+撤销追踪  git reset HEAD 文件夹/文件名
+回退版本  git reset --hard HEAD^   or git reset --hard id号
+添加标签  git tag 标签号（默认添加到最后一次）  指定位置  git tag 标签号 id号
+删除标签  git tag -d 标签号
+分支 
+    创建  git branch 名字 
+    检查  git branch
+    切换  git checkout 名字
+    删除  git branch -d 名字
+    强制删除  git branch -D 名字
+    创建并切换到当前分支  git checkout -b 名字
+    合并  切换到主分支  git merge 名字
+    冲突   git merge -abort 忽略其他分支，保留原分支

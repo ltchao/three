@@ -28,7 +28,7 @@ git log 退出方法  Q
 分支 
     创建  git branch 名字 
     检查  git branch
-    切换  git checkout 名字
+    切换  git checkout 名字gi
     删除  git branch -d 名字
     强制删除  git branch -D 名字
     创建并切换到当前分支  git checkout -b 名字

@@ -1,3 +1,3 @@
 # three
 git使用
-![image](图片路径)
+![image](https://github.com/ltchao/three/blob/master/img/git.jpg)

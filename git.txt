@@ -1,3 +1,4 @@
+git clone xxx地址 克隆项目到本地
 git init  初始化
 git add .  本地 暂存区  远程仓库
 git status  状态
@@ -32,5 +33,8 @@ git log 退出方法  Q
     删除  git branch -d 名字
     强制删除  git branch -D 名字
     创建并切换到当前分支  git checkout -b 名字
+    git pull 拉取所有
     合并  切换到主分支  git merge 名字
     冲突   git merge -abort 忽略其他分支，保留原分支
+
+    如何在github上高效的搜索项目 ----关键词 in:name stars:>1000 pushed:>2020
